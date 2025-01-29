@@ -13,7 +13,7 @@ running `pip install requests` in your terminal
 
 or
 
-if you want to run in with input you can run the main.py in src/input folder by `python main.py`
+if you want to run it with input you can run the main.py in src/input folder by `python main.py`
 and give it your password to check 
 [its python3 instead of python in macOS or linux]
 
