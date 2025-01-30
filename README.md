@@ -23,7 +23,7 @@
 
 Running with User Input
 •	If you prefer manual input, run:
-   ```bash
+   
    python main.py
 
 •	The program will prompt you to enter a password.
