@@ -1,20 +1,31 @@
-# password leakage checker
-(this is a case study)
+Password Leakage Checker
 
-if you want to check if your password has been leaked or not without giving your password to some random website to do it for you , you can use this program to that without any online services that you can't completely trust.
+(Case Study)
 
-Instructions:
+If you want to check whether your password has been leaked—without submitting it to a random website—you can use this program to do so safely, without relying on online services you might not fully trust.
 
-1 - if your trying to run the program from the src code you need to install requests package by just
-running `pip install requests` in your terminal
+Instructions
 
-2-you can run main.py in your terminal with sys arg in src/sys_args folder by `python main.py PASSWORD` and you can give it as many as password you want to check .  
-[its python3 instead of python in macOS or linux]
+Running from Source Code
+	1.	If you’re running the program from the source code, you need to install the requests package first. Simply run:
 
-or
+pip install requests
 
-if you want to run it with input you can run the main.py in src/input folder by `python main.py`
-and give it your password to check 
-[its python3 instead of python in macOS or linux]
 
-and if you want to run the program easily without any headache just run the main.exe file and give it your password to check 
+	2.	You can run main.py from the src/sys_args folder with a command-line argument:
+
+python main.py PASSWORD
+
+	•	You can check multiple passwords at once by passing them as additional arguments.
+	•	On macOS or Linux, use python3 instead of python.
+
+Running with User Input
+	•	If you prefer to enter passwords manually, run main.py from the src/input folder:
+
+python main.py
+
+	•	The program will prompt you to enter a password for checking.
+	•	On macOS or Linux, use python3 instead of python.
+
+Running as an Executable
+	•	To run the program easily without any setup, simply execute main.exe and enter your password when prompted.
