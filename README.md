@@ -1,18 +1,20 @@
-Password Leakage Checker
+# Password Leakage Checker  
 
-(Case Study)
+*A simple tool to check if your password has been leaked without relying on untrusted online services.*  
 
-If you want to check whether your password has been leaked—without submitting it to a random website—you can use this program to do so safely, without relying on online services you might not fully trust.
+## Features  
+- Check if your password has been compromised without sharing it with third-party websites.  
+- Works with both command-line arguments and manual input.  
+- Provides a simple executable for easy usage.  
 
-Instructions
+## Installation  
 
-Running from Source Code
-	1.	If you’re running the program from the source code, you need to install the requests package first. Simply run:
+### Running from Source Code  
+1. Install the required dependencies:  
+   ```bash
+   pip install requests
 
-pip install requests
-
-
-	2.	You can run main.py from the src/sys_args folder with a command-line argument:
+	2.	Run the script with a password as a command-line argument:
 
 python main.py PASSWORD
 
@@ -20,12 +22,16 @@ python main.py PASSWORD
 	•	On macOS or Linux, use python3 instead of python.
 
 Running with User Input
-	•	If you prefer to enter passwords manually, run main.py from the src/input folder:
+	•	If you prefer manual input, run:
 
 python main.py
 
-	•	The program will prompt you to enter a password for checking.
+	•	The program will prompt you to enter a password.
 	•	On macOS or Linux, use python3 instead of python.
 
 Running as an Executable
-	•	To run the program easily without any setup, simply execute main.exe and enter your password when prompted.
+	•	To run the program without any setup, execute:
+
+main.exe
+
+	•	Enter your password when prompted.
