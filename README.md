@@ -15,7 +15,7 @@
    pip install requests
 
 2.	Run the script with a password as a command-line argument:
-   ```bash
+   
    python main.py PASSWORD
 
 •	You can check multiple passwords at once by passing them as additional arguments.
