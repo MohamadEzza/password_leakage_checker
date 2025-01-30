@@ -14,24 +14,24 @@
    ```bash
    pip install requests
 
-	2.	Run the script with a password as a command-line argument:
+2.	Run the script with a password as a command-line argument:
+   ```bash
+   python main.py PASSWORD
 
-python main.py PASSWORD
-
-	•	You can check multiple passwords at once by passing them as additional arguments.
-	•	On macOS or Linux, use python3 instead of python.
+•	You can check multiple passwords at once by passing them as additional arguments.
+•	On macOS or Linux, use python3 instead of python.
 
 Running with User Input
-	•	If you prefer manual input, run:
+•	If you prefer manual input, run:
+   ```bash
+   python main.py
 
-python main.py
-
-	•	The program will prompt you to enter a password.
-	•	On macOS or Linux, use python3 instead of python.
+•	The program will prompt you to enter a password.
+•	On macOS or Linux, use python3 instead of python.
 
 Running as an Executable
 	•	To run the program without any setup, execute:
 
-main.exe
+   main.exe
 
 	•	Enter your password when prompted.
